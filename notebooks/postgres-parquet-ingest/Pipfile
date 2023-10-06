@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+jupyter = "*"
+ipykernel = "*"
+pandas = "*"
+s3path = "*"
+sqlalchemy = "*"
+psycopg2-binary = "*"
+pyarrow = "*"
+tqdm = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
